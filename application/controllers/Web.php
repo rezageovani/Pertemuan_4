@@ -15,6 +15,14 @@ class Web extends CI_Controller{
     $this->load->view('v_footer',$data);
     }
     
+    public function profil()
+    {
+        $data['judul'] = "Halaman Depan";
+        $this->load->view('v_header',$data);
+        $this->load->view('v_profil',$data);
+        $this->load->view('v_footer',$data);   
+    }
+    
     public function about()
     {
         $data['judul'] = "Halaman Depan";
@@ -22,4 +30,6 @@ class Web extends CI_Controller{
         $this->load->view('v_about',$data);
         $this->load->view('v_footer',$data);   
     }
+
+    
 }

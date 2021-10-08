@@ -1,23 +1,7 @@
 <section>
-    <h1><?php echo $judul ?></h1>
-    <h4>Nama</h4>
-    <ul type="disc">
-        <li>Nama Depan : Reza</li>
-        <li>Nama Belakang : Geovani</li>
-    </ul>
-    <br>
-    <h4>Alamat</h4>
-    <ul type="none">
-        <li> Jalan Mujair Raya No.182</li>
-    </ul>
-
-    <h4>Tempat Lahir</h4>
-    <ul type="none">
-        <li>Jakarta</li>
-    </ul>
-    <h4>Olah Raga Favorit</h4>
-    <ul type="square">
-        <li>Berenang</li>
-        <li>Taekwondo</li>
-    </ul>
+    <h1 style=font-size:35px>About Page</h1>
+    <p> Selamat datang Pada Halaman About <br><br>
+        About berisi tentang kumpulan gallery saya    
+    </p>
+   
 </section>
